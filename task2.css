@@ -1,0 +1,145 @@
+body {
+    background-color: lightblue;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#about {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+#skills {
+    text-align: center;
+    margin: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: #f0f0f0;
+}
+
+#projects {
+    text-align: center;
+    margin: 20px;
+}
+
+.project {
+    margin: 20px;
+}
+
+.project img {
+    height: 200px;
+    width: 200px;
+}
+
+#resume {
+    text-align: center;
+    margin: 20px;
+    background-color: lightcoral;
+}
+
+#contact {
+    text-align: center;
+    margin: 20px;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+.a {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.a img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.a p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.a:hover {
+    transform: scale(1.05);
+    background-color: #333;
+    color: #fff;
+}
+
+.proj {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+}
+
+.proj img {
+    max-width: 40%;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.proj:hover {
+    transform: scale(1.05);
+    background-color: #333;
+    color: #fff;
+}
